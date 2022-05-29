@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/mogmoug/workspace/c_cpp-project/OINC/build",
-  "command": "/usr/bin/cc     -o CMakeFiles/oinc.dir/main.c.o   -c /home/mogmoug/workspace/c_cpp-project/OINC/main.c",
-  "file": "/home/mogmoug/workspace/c_cpp-project/OINC/main.c"
-}
-]
