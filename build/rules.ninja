@@ -25,7 +25,7 @@ rule CUSTOM_COMMAND
 rule C_COMPILER__oinc
   depfile = $DEP_FILE
   deps = gcc
-  command = /usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = /usr/bin/gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building C object $out
 
 
@@ -33,7 +33,7 @@ rule C_COMPILER__oinc
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__oinc
-  command = $PRE_LINK && /usr/bin/cc $FLAGS  $LINK_FLAGS $in  -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /usr/bin/gcc $FLAGS  $LINK_FLAGS $in  -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -42,7 +42,7 @@ rule C_EXECUTABLE_LINKER__oinc
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake -S/media/mogmoug/Documentation/work-space/c_cpp-project/OINC -B/media/mogmoug/Documentation/work-space/c_cpp-project/OINC/build
+  command = /usr/bin/cmake -S/home/mogmoug/workspace/c_cpp-project/OINC -B/home/mogmoug/workspace/c_cpp-project/OINC/build
   description = Re-running CMake...
   generator = 1
 
