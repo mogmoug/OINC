@@ -1,0 +1,51 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x08\x00O\x00I\x00N\x00C)
+
+[CMake]
+Build Directory Count=2
+Current Build Directory Index-Host System=0
+Current Build Directory Index-主机系统=1
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/media/mogmoug/Documentation/work-space/c_cpp-project/OINC/build
+Build Type=Debug
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=
+Runtime=Host System
+
+[CMake][CMake Build Directory 1]
+Build Directory Path=/media/mogmoug/Documentation/work-space/c_cpp-project/OINC/build
+Build Type=\n
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/usr/local
+Runtime=主机系统
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=oinc
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x08\x00O\x00I\x00N\x00C\x00\x00\x00\x08\x00o\x00i\x00n\x00c)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///media/mogmoug/Documentation/work-space/c_cpp-project/OINC
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=OINC,oinc
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Project]
+VersionControlSupport=
