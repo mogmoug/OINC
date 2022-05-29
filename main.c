@@ -1,4 +1,4 @@
-//OINC not is a computer
+//OINC not is a cpu
 #include "oinc.h"
 
 int main()

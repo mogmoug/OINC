@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/oinc.dir/main.c.o  -o oinc 

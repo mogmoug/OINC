@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mogmoug/workspace/c_cpp-project/OINC/main.c
+oinc.h
+/home/mogmoug/workspace/c_cpp-project/OINC/oinc.h
+
+/home/mogmoug/workspace/c_cpp-project/OINC/oinc.h
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+

@@ -1,0 +1,7 @@
+/home/mogmoug/workspace/c_cpp-project/OINC/CMakeFiles/install/strip.dir
+/home/mogmoug/workspace/c_cpp-project/OINC/CMakeFiles/install/local.dir
+/home/mogmoug/workspace/c_cpp-project/OINC/CMakeFiles/install.dir
+/home/mogmoug/workspace/c_cpp-project/OINC/CMakeFiles/list_install_components.dir
+/home/mogmoug/workspace/c_cpp-project/OINC/CMakeFiles/rebuild_cache.dir
+/home/mogmoug/workspace/c_cpp-project/OINC/CMakeFiles/edit_cache.dir
+/home/mogmoug/workspace/c_cpp-project/OINC/CMakeFiles/oinc.dir
